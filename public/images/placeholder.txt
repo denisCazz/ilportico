@@ -1,0 +1,18 @@
+Please ensure you have the following image files in this directory:
+
+- hero1.webp
+- hero2.webp
+- wines.webp
+- cocktail.webp
+- food.webp
+
+You can find free stock images at:
+- Unsplash (https://unsplash.com)
+- Pexels (https://pexels.com)
+
+For placeholder images, you can use:
+- https://placehold.co/600x400/png?text=Wines
+- https://placehold.co/600x400/png?text=Cocktails
+- https://placehold.co/600x400/png?text=Food
+
+Download these images and save them with the appropriate filenames in this directory.
