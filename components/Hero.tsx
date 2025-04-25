@@ -13,6 +13,7 @@ export default function Hero() {
   const [isAnimating, setIsAnimating] = useState(false);
 
   useEffect(() => {
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     const interval = setInterval(() => {
       nextSlide();
     }, 5000);
@@ -108,7 +109,7 @@ export default function Hero() {
 
       {/* Collage solo su desktop */}
       <div className="collage-hero mt-4">
-        {images.map((img, idx) => (
+        {images.map((img) => (
           <div className="collage-img-wrapper" key={img.src}>
             <Image src={img.src} alt={img.label} width={900} height={700} className="collage-img" />
             <span className="collage-img-label">

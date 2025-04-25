@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { FiDroplet, FiCoffee, FiBookOpen } from "react-icons/fi";
+import { FiCoffee, FiBookOpen } from "react-icons/fi";
 import { FaWineGlassAlt } from "react-icons/fa";
 
 export default function MenuLanding() {
